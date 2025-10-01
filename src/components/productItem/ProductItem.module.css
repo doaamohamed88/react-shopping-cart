@@ -1,0 +1,55 @@
+.item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item h2 {
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #63676b;
+}
+
+.item p {
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+}
+
+.item button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.item button:hover {
+  background: #218838;
+}
+

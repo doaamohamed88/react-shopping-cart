@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+    background: linear-gradient(90deg, #f3f7fa, #ffffff);
+  border-bottom: 2px solid #ddd;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand img {
+  width: 60px;
+  height: auto;
+}
+
+.brand h1 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.cartBtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.cartBtn:hover {
+  background: #22903b;
+}
