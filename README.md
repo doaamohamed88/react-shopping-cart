@@ -3,6 +3,9 @@
 A simple and reusable shopping cart implementation in **React** using **Context API**, supporting item management, modals, toast notifications, and total price calculation.
 
 ---
+🚀 Live Demo
+
+👉 https://react-shopping-cart-five-nu.vercel.app/
 
 ## Features
 
